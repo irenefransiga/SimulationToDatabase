@@ -1,0 +1,28 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HW3 - Database Connection</title>
+    <script type="text/javascript" src="http://24.16.255.56:8888/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="./assetmanager.js"></script>
+    <script type="text/javascript" src="./gameengine.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+    
+</head>
+<body>
+    <div><strong>Irene Fransiga</strong></div>
+    <div>Simulation is adapted from Chris Marriott's Code "Tag"</div>
+    <div>The red circle will eat keep eating other colors</div>
+    <div>For every circle that is eaten, a new circle of a color will spawn</div>
+    <div>Red circle will increase it's mass if it eats <strong>Yellow and Blue</strong> circle</div>
+    <div>Decrease if eats<strong> Green and White</strong> circle</div>
+    <div>
+        <input type="button" value="Save" onclick="save(event)">
+        <input type="button" value="Load" onclick="load(event)">
+    </div>
+    <canvas id="gameWorld" width="800" height="700" style="border: 1px solid white; background: black"></canvas>
+    
+    
+</body>
+</html>
